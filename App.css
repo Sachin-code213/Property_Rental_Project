@@ -1,0 +1,45 @@
+/* Premium Modern Styles */
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #4cc9f0;
+  --bg-light: #f8f9fa;
+}
+
+body {
+  background-color: var(--bg-light);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Glassmorphism Effect for Cards */
+.card {
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(67, 97, 238, 0.15);
+}
+
+/* Gradient Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+/* Search Bar Enhancement */
+.form-control {
+  border-radius: 12px;
+  padding: 12px 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 4px rgba(67, 97, 238, 0.1);
+  border-color: var(--primary-color);
+}
